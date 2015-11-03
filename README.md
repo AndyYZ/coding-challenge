@@ -405,3 +405,10 @@ No, for simplicity you can assume that the incoming tweets are in order. Althoug
 
 * *Can hashtags contain unicode characters and how should these be handled?*                                       
 Yes, hashtags can contain unicode characters. You should clean hashtags in feature 2 the same way you clean a tweet in feature 1.
+
+* *It is possbile that two original distinct hashtags reduced to a same one after cleaning (by removing the non-ASCII unicodes). Are these two cleaned hashtags considered to be the same or not?
+
+* *It is possible that a cleaned hashtag, though not empty, only consists of such punctuations as underscores, like "#_" or "#__". Are such hashtages still considered to be valid hashtags and used as vertices in the graph? 
+
+
+
